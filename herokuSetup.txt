@@ -6,3 +6,4 @@
 6. change config/database url,type to pgsql
 7. run php artisan migrate in console of heroku
 8. add public/.htaccess
+9. add procfile
