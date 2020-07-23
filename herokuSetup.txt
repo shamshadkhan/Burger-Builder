@@ -4,3 +4,5 @@
 4. add on resources heroku progres
 5. set configuration in settings from .env
 6. change config/database url,type to pgsql
+7. run php artisan migrate in console of heroku
+8. add public/.htaccess
