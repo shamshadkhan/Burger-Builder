@@ -1,0 +1,6 @@
+1. Upload all necessary files
+2. no need vendor,node-modules
+3. connect to heroku
+4. add on resources heroku progres
+5. set configuration in settings from .env
+6. change config/database url,type to pgsql
