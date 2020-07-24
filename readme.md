@@ -33,4 +33,4 @@ Description: Its a small project using Laravel Framework PHP7,Mysql for running 
 ## Demo
 
 1. https://laravel-burger-builder.herokuapp.com/
-2. https://laravel-burger-builder.herokuapp.com/api/ (used for nextjs_project for api)
+2. https://laravel-burger-builder.herokuapp.com/api/ (used for burger builder api)
