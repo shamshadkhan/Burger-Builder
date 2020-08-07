@@ -84,7 +84,7 @@ class BurgerController extends Controller
         try {
             $token = $request->bearerToken();
             $user = DB::table('users')->where('api_token',$token)->first();
-            $order = DB::table('burgers')->where('user_id',$user->id)->orderBy('id','asce')->paginate(10);
+            $order = DB::table('burgers')->where('user_id',$user->id)->orderBy('id','asce')->paginate(3);
             return response()->json($order, 200);       
         } 
         catch (Exception $e) {
